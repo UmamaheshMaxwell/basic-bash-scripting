@@ -13,5 +13,15 @@ function sample(){
 
 wish
 sample "uma" "mahesh"
-quit
+#quit
 
+function testMe(){
+    name=$1
+    echo "The name is $name : Inside function"
+}
+
+name="mahesh"
+echo "The name is $name : Before"
+
+testMe "Uma"
+echo "The name is $name : After"

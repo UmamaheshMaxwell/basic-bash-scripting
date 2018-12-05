@@ -1,5 +1,5 @@
 #pleace the curosr in same line
--e enables the interpretation of \
+echo -e enables the interpretation of \
 echo -e "Please enter your file \c"
 read file_name
 if [ -e $file_name ]

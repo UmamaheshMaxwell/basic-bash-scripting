@@ -1,17 +1,17 @@
-# vehical=$1
+vehical=$1
 
-# case $vehical in 
-#     "car" )
-#         echo "Rent of $vehical is 100 dollors" ;;
-#     "van" )
-#         echo "Rent of $vehical is 120 dollors" ;;
-#     "truck" )
-#         echo "Rent of $vehical is 180 dollors" ;;
-#     "bicycle" )
-#         echo "Rent of $vehical is 80 dollors" ;;
-#     * )
-#         echo "Unkown Vehicle" ;;
-# esac
+case $vehical in 
+    "car" )
+        echo "Rent of $vehical is 100 dollors" ;;
+    "van" )
+        echo "Rent of $vehical is 120 dollors" ;;
+    "truck" )
+        echo "Rent of $vehical is 180 dollors" ;;
+    "bicycle" )
+        echo "Rent of $vehical is 80 dollors" ;;
+    * )
+        echo "Unkown Vehicle" ;;
+esac
 
 echo -e "please enter a character : \c"
 read char
